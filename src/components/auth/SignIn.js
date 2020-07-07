@@ -12,7 +12,7 @@ import { isLoading, getUserInfo } from "selectors";
 import SignInForm from "./form/SignInForm";
 import BoxCenter from "./UI/box/Center";
 
-const SignIn = ({ auth, match, location }) => {
+const SignIn = () => {
   const isFetching = useSelector(isLoading);
   const user = useSelector(getUserInfo);
   const history = useHistory();
