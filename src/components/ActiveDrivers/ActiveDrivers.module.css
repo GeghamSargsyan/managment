@@ -1,0 +1,28 @@
+.activeDrivers {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.12);
+}
+
+.activeDrivers > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    background: linear-gradient(45deg, #946d07, #1c729bc2);
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 black;
+    cursor: pointer;
+}
+
+.activeDrivers > div > span {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: green;
+    border-radius: 50%;
+    margin: 0 5px;
+}

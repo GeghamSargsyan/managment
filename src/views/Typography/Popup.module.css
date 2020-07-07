@@ -1,0 +1,84 @@
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(128, 128, 128, 0.267);
+    z-index: 9999;
+}
+
+.popupContainer {
+    position: relative;
+    margin: 5vh auto;
+    width: 80%;
+    height: 90vh;
+    box-shadow: 0 0 20px 1px rgba(128, 128, 128, 0.267);
+    background: #ffffff;
+}
+
+.close {
+    position: absolute;
+    right: 13px;
+    top: 13px;
+    font-size: 22px;
+    color: brown;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+.info {
+    display: flex;
+    align-items: baseline;
+    padding-top: 75px;
+}
+
+.infoItem {
+    margin: 0 25px;
+    text-transform: capitalize;
+}
+
+.infoItem > span:last-child {
+    font-weight: bold;
+}
+
+.change .row {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    padding: 25px;
+}
+
+.change .row > label {
+    font-size: 13px;
+    line-height: 1.42857;
+    margin: 10px;
+    text-transform: capitalize;
+}
+
+.change .row > label > input {
+    padding: 7px;
+    border: 2px solid silver;
+    box-shadow: 0 0 3px 0px rgba(0,0,0,0.26);
+    border-radius: 5px;
+}
+
+.popupContainer button {
+    padding: 8px 15px;
+    width: 150px;
+    background: green;
+    border: 1px solid green;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 6px;
+    margin-left: calc(90% - 150px);
+    cursor: pointer;
+    transition: .4s;
+}
+
+.popupContainer button:hover {
+    background: #fff;
+    color: green;
+    border-color: green;
+
+}
